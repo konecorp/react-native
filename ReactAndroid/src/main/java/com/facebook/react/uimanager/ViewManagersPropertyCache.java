@@ -98,7 +98,7 @@ import java.util.Map;
       } catch (Throwable t) {
         FLog.e(ViewManager.class, "Error while updating prop " + mPropName, t);
         throw new JSApplicationIllegalArgumentException(
-            "Error while updating property '"
+            "RNKone - Error while updating property '"
                 + mPropName
                 + "' of a view managed by: "
                 + viewManager.getName(),
@@ -124,7 +124,7 @@ import java.util.Map;
       } catch (Throwable t) {
         FLog.e(ViewManager.class, "Error while updating prop " + mPropName, t);
         throw new JSApplicationIllegalArgumentException(
-            "Error while updating property '"
+            "RNKone - Error while updating property '"
                 + mPropName
                 + "' in shadow node of type: "
                 + nodeToUpdate.getViewClass(),
